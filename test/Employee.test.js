@@ -1,5 +1,6 @@
 const Employee = require('../lib/Employee');
 
+//Test that an employee's name is correctly returned
 describe('getName', () => {
 
 
@@ -10,7 +11,7 @@ describe('getName', () => {
 
 });
 
-
+//Test that an employee's email is correctly returned
 describe('getEmail', () => {
 
 
@@ -21,6 +22,7 @@ describe('getEmail', () => {
   
   });
 
+  //Test that an employee's id is correctly returned
   describe('getId', () => {
 
 
@@ -31,6 +33,7 @@ describe('getEmail', () => {
   
   });
 
+  //Test that an employee's role is correctly returned
   describe('getRole', () => {
 
 

@@ -1,5 +1,6 @@
 const Engineer = require('../lib/Engineer');
 
+//Test that an engineer's name is correctly returned
 describe('getName', () => {
 
 
@@ -10,7 +11,7 @@ describe('getName', () => {
   
   });
   
-  
+  //Test that an engineer's email is correctly returned
   describe('getEmail', () => {
   
   
@@ -21,6 +22,7 @@ describe('getName', () => {
     
     });
   
+    //Test that an engineer's id is correctly returned
     describe('getId', () => {
   
   
@@ -31,6 +33,7 @@ describe('getName', () => {
     
     });
   
+    //Test that an engineer's role is correctly returned
     describe('getRole', () => {
   
   
@@ -41,6 +44,7 @@ describe('getName', () => {
     
     });
 
+    //Test that an engineer's GitHub user name is correctly returned
     describe('getGitHub', () => {
   
   

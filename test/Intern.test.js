@@ -1,5 +1,6 @@
 const Intern = require('../lib/Intern');
 
+//Test that an intern's name is correctly returned
 describe('getName', () => {
 
 
@@ -10,7 +11,7 @@ describe('getName', () => {
   
   });
   
-  
+  //Test that an intern's email is correctly returned
   describe('getEmail', () => {
   
   
@@ -21,6 +22,7 @@ describe('getName', () => {
     
     });
   
+    //Test that an intern's id is correctly returned
     describe('getId', () => {
   
   
@@ -31,6 +33,7 @@ describe('getName', () => {
     
     });
   
+    //Test that an intern's role is correctly returned
     describe('getRole', () => {
   
   
@@ -40,6 +43,8 @@ describe('getName', () => {
       });
     
     });
+
+    //Test that an intern's school is correctly returned
 
     describe('getSchool', () => {
   
