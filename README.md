@@ -38,18 +38,17 @@ Note: consider creating a .gitignore file and include node_modules so that your 
 
 
 ## Usage
-To use this application, first run the command ‘node index' to start the prompts.
+To use this application, first run the command ‘node index' to start the prompts.  Answer each prompt to create the team manager.  If a user enters a non-number for the Employee ID, the system will request you to re-enter the value.  If a user enters an invalid format for the email question, the system will request you to re-enter the value.
 
-Answer each prompt to create the team manager.  If a user enters a non-number for the Employee ID, the system will request you to re-enter the value.  If a user enters an invalid format for the email question, the system will request you to re-enter the value.
+![Example of Prompts](./src/images/prompts.jpg)
 
-After the details for one team member have been completed, the system will ask whether you want to add another person (either an engineer or an intern).  If the user selects another team member, they will go through another series of prompts related to that employee type.  
+After the details for one team member have been completed, the system will ask whether you want to add another person (either an engineer or an intern).  If the user selects another team member, they will go through another series of prompts related to that employee type. Otherwise, the user has the option to complete the team creation process.
 
-
-Otherwise, the user has the option to complete the team creation process.
+![Complete team creation](./src/images/finishteam.jpg)
 
 Once the user finishes creating their team, a new index.html file will be created under the 'dist' folder containing all the entered team members.
 
-
+![Example of Team Profile](./src/images/index.jpg)
 
 ## License
 This application is covered under the [License: MIT](https://opensource.org/licenses/MIT).
