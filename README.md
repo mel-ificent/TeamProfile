@@ -80,6 +80,5 @@ You can see a sample team HTML file generated from this application under the 'd
 ## Questions
 Contact Details:
 
-- GitHub Username: mel-ificent
-- [Link to GitHub Profile](https://github.com/mel-ificent)
+- GitHub profile: [mel-ificent](https://github.com/mel-ificent)
 - For additional questions, you can contact me via email: melissadonato11@gmail.com
