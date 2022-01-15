@@ -73,7 +73,7 @@ This application uses NPM package Jest for testing. Included with this repo are 
 To initiate a test run, use the command 'npm test'.
 
 ## Demo
-[Video Demo]()
+[Video Demo](https://watch.screencastify.com/v/wLTEUO8q8Zhr4r3dfagA)
 
 You can see a sample team HTML file generated from this application under the 'dist' folder.
 
